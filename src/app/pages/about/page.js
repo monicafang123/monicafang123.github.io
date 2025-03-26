@@ -31,6 +31,7 @@ export default function About() {
               I’m always eager to collaborate, learn, and innovate in the ever-evolving landscape of design. If you’re interested in working together or just want to chat about UX, digital art, or emerging technologies, feel free to reach out!
             </p>
         </div>
+      </div>     
       </div>
     </main>
   );
