@@ -43,11 +43,14 @@ const Navbar = () => {
               About Me
             </Link>
 
-            <Link href="https://raw.githubusercontent.com/monicafang123/monicafang123.github.io/2768648ca8ef63f977f44bcadb5e713915ca3dba/public/Resume_New_Monica.pdf"
-              className={`inline-flex items-center px-1 pt-1 transition-colors duration-200 text-[rgb(255,225,65)] text-lg`}
+            <Link
+              href="/Resume_New_Monica.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-1 pt-1 transition-colors duration-200 text-[rgb(255,225,65)] text-lg"
             >
               Resume
-            </Link>
+          </Link>
 
           </div>
         </div>
