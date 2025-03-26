@@ -5,7 +5,6 @@ const nextConfig = {
     unoptimized: true, 
   },
   trailingSlash: true, 
-  basePath: '/monicafang123.github.io', 
 };
 
 export default nextConfig;
