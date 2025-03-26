@@ -5,12 +5,13 @@ export default function About() {
       <div className="flex flex-col sm:flex-row mt-2 sm:mt-20 justify-center items-center sm:items-start text-center gap-8 sm:gap-12 text-neutral-600">
         <div className="relative group h-fit mt-8 opacity-0 animate-slidein [--slidein-delay:400ms]">
           <Image
-            src="/images/folder/monica-about.webp"
+            src="/images/monica-about.webp"
             width={300}
             height={500}
             alt="Monica Fang"
-            className="-rotate-3 hover:scale-[1.02] hover:rotate-2 transition ease object-contain"
-          />
+             className="rotate-90" // or rotate-[270deg] if needed
+            />
+
         </div>
 
         <div className="flex flex-col font-sans gap-4 mb-20 sm:mt-6 w-8/12 sm:w-1/3 text-center sm:text-left bg-[rgba(255,255,255,0.85)] backdrop-blur-sm p-6 rounded-2xl">
