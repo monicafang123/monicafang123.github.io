@@ -1,17 +1,16 @@
 import Image from "next/image";
 export default function About() {
   return (
-    <main className="min-h-screen overflow-auto">
-      <div className="flex flex-col sm:flex-row mt-2 sm:mt-20 justify-center items-center sm:items-start text-center gap-8 sm:gap-12 text-neutral-600">
+    <main className="w-full min-h-screen py-10 px-4">
+      <div className="flex flex-col sm:flex-row justify-center items-center sm:items-start text-center gap-8 sm:gap-12 text-neutral-600">
         <div className="relative group h-fit mt-8 opacity-0 animate-slidein [--slidein-delay:400ms]">
           <Image
             src="/images/monica-about.webp"
             width={300}
             height={500}
             alt="Monica Fang"
-             className="rotate-90" // or rotate-[270deg] if needed
-            />
-
+            className="rotate-90"
+          />
         </div>
 
         <div className="flex flex-col font-sans gap-4 mb-20 sm:mt-6 w-8/12 sm:w-1/3 text-center sm:text-left bg-[rgba(255,255,255,0.85)] backdrop-blur-sm p-6 rounded-2xl">
@@ -30,8 +29,7 @@ export default function About() {
             </p>
             <p className="animate-slidein opacity-0 [--slidein-delay:600ms]">
               I’m always eager to collaborate, learn, and innovate in the ever-evolving landscape of design. If you’re interested in working together or just want to chat about UX, digital art, or emerging technologies, feel free to reach out!
-            </p>           
-          </div>
+            </p>
         </div>
       </div>
     </main>
