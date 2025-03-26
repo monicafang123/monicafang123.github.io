@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(-90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(
+      transparent 7.5px,
+      #f8f8f8 7.5px,
+      #f8f8f8 195px,
+      transparent 195px
+    ),
+    linear-gradient(-90deg, rgba(170, 170, 170, 0.3) 1px, transparent 1px),
+    linear-gradient(
+      -90deg,
+      transparent 7.5px,
+      #f8f8f8 7.5px,
+      #f8f8f8 195px,
+      transparent 195px
+    ),
+    linear-gradient(rgba(170, 170, 170, 0.3) 1px, transparent 1px), #f8f8f8;
+  background-size: 10px 10px, 10px 10px, 200px 200px, 200px 200px, 200px 200px,
+    200px 200px, 200px 200px, 200px 200px;
+  background-position: calc(50% + 5px) 0, calc(50% + 5px) 0, calc(50% + 100px) 0,
+    calc(50% + 100px) 0, calc(50% + 100px) 0, calc(50% + 100px) 0,
+    calc(50% + 100px) 0, calc(50% + 100px) 0;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+video {
+  -webkit-user-drag: none;
+}
