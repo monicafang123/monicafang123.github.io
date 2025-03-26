@@ -1,14 +1,14 @@
 import Image from "next/image";
 export default function About() {
   return (
-    <main className="overflow-hidden">
+    <main className="min-h-screen overflow-auto">
       <div className="flex flex-col sm:flex-row mt-2 sm:mt-20 justify-center items-center sm:items-start text-center gap-8 sm:gap-12 text-neutral-600">
         <div className="relative group h-fit mt-8 opacity-0 animate-slidein [--slidein-delay:400ms]">
           <Image
-            src="/images/monica-about.webp"
+            src="/images/folder/monica-about.webp"
             width={300}
             height={500}
-            alt="Yeji Polaroid"
+            alt="Monica Fang"
             className="-rotate-3 hover:scale-[1.02] hover:rotate-2 transition ease object-contain"
           />
         </div>
