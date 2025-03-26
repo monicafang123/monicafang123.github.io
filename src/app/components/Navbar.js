@@ -45,7 +45,7 @@ const Navbar = () => {
               About Me
             </Link>
 
-            <Link href="https://file.notion.so/f/f/61fa516d-0584-4413-93a7-326c7039024b/c2afef92-0293-40da-97a0-f74c1a1e7a14/Resume_New_Monica.pdf?table=block&id=1c2b2519-c8c3-8001-be77-d9ace80ff169&spaceId=61fa516d-0584-4413-93a7-326c7039024b&expirationTimestamp=1742990400000&signature=I_QG26T7BH1wCPyqs7ep2_kC_HqG1wB4bFYxlClLKoE&downloadName=Resume_New_Monica.pdf"
+            <Link href="https://raw.githubusercontent.com/monicafang123/monicafang123.github.io/2768648ca8ef63f977f44bcadb5e713915ca3dba/public/Resume_New_Monica.pdf"
               className={`inline-flex items-center px-1 pt-1 transition-colors duration-200 text-[rgb(255,225,65)] text-lg`}
             >
               Resume
