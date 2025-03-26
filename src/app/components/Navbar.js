@@ -12,8 +12,8 @@ const Navbar = () => {
 
   const isActive = (path) => {
     return pathname === path
-      ? "text-blue-600 border-b-2 border-blue-600"
-      : "text-gray-600 hover:text-blue-600";
+      ? "border-b-2 border-white" 
+      : "hover:text-white";
   };
 
   const mobileActive = (path) => {
@@ -38,10 +38,11 @@ const Navbar = () => {
             
             <Link
               href="/pages/about"
-              className={`inline-flex items-center px-1 pt-1 transition-colors duration-200 text-[rgb(255,225,65)] text-lg ${isActive(
-                "/pages/about"
-              )}`}
+              className={`inline-flex items-center px-1 pt-1 transition-colors duration-200 text-[rgb(255,225,65)] text-lg ${isActive("/pages/about")}`}
             >
+              About Me
+            </Link>
+
               About Me
             </Link>
 
