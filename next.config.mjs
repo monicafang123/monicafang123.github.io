@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",  // <=== enables static exports
-  reactStrictMode: true,
+  output: 'export', 
+  images: {
+    unoptimized: true, 
+  },
+  trailingSlash: true, 
+  basePath: '/monicafang123.github.io', 
 };
 
 export default nextConfig;
+
