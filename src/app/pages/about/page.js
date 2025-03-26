@@ -12,7 +12,7 @@ export default function About() {
             width={300}
             height={500}
             alt="Monica Fang"
-            className="transition hover:scale-[1.02] hover:rotate-2"
+            className="transition rotate-90 hover:scale-[1.02] hover:rotate-2"
           />
         </div>
 
